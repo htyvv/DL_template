@@ -1,0 +1,30 @@
+data:
+  path: ''
+  features: []
+  key_cols: []
+  class_col: ''
+  num_class: -1
+
+setting:
+  model_name: 'LSTM'
+  task_type: 'binary'
+  dataset_name: ''
+  test_size: 0.2
+  batch_size: 256
+  random_seed: 42
+  learning_rate: 0.0001
+  optimizer: 'Adam'
+  scheduler:
+    name: null
+    params:
+      step_size: 10
+      last_epoch: -1
+      verbose: False
+  loss: ''
+  scaler: null
+
+trainer:
+  max_epochs: 100
+  shuffle: False
+  num_workers: 5
+  log_every_n_step: 1

@@ -1,0 +1,3 @@
+tensorboard:
+  exp_name: 'onboarding'
+  save_dir: 'tensorboard'

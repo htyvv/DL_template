@@ -1,0 +1,16 @@
+LSTM:
+  hidden_size: 32
+  num_layers: 3
+  output_size: 1
+  bias: True
+  dropout: 0.0
+  bidirectional: False
+  self_attention: False
+
+TCN:
+  num_channels: [32, 32]
+  output_size: 1
+  kernel_size: 10 
+  embedding_size: 16
+  dropout: 0.0
+  self_attention: True
